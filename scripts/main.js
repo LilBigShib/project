@@ -20,5 +20,8 @@ function setUserName() {
         var storedName = localStorage.getItem('name');
         myHeading.innerHTML = 'Mozilla Firefox, ' + storedName;
         }
+        myButton.onclick = function() {
+            setUserName();
+            }
         
             
